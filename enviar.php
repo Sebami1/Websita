@@ -53,4 +53,3 @@ if (!empty($correoRemitente)) {
 
 header('Location: index.html'); // Redirige después de enviar el correo
 
-?>
