@@ -1,4 +1,8 @@
 <?php
+
+ini_set("SMTP", "wolfsotre.shop");
+ini_set("smtp_port", "5847"); 
+
 require 'vendor/autoload.php'; // Incluye el autoloader de Composer
 use Mailgun\Mailgun;
 
